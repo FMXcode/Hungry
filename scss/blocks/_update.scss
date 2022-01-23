@@ -1,0 +1,39 @@
+.update{
+	padding-top: 120px;
+	padding-bottom: 128px;
+	&__header{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		text-align: center;
+	}
+	&__points{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__point{
+		margin-top: 30px;
+		&-name{
+			font-style: normal;
+			font-weight: 600;
+			font-size: 28px;
+		}
+		&-text{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			width: 327px;
+			opacity: 0.7;
+			color: #6D7073;
+		}
+		&-more{
+			display: block;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 18px;
+			color: #1F98F0;
+			text-decoration: none;
+			margin-top: 30px;
+		}
+	}
+}

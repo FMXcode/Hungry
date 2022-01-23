@@ -1,0 +1,60 @@
+.footer{
+	background-color: #03101A;
+	color: #fff;
+	padding: 100px;
+	&__wapper{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__hungry{
+		&-header{
+			margin: 0;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30.95px;
+			margin-bottom: 35px;
+		}
+		&-text{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			opacity: 0.7;
+			width: 327px;
+		}
+	}
+	&__support{
+		&-header{
+			margin-top: 12px;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 21px;
+			margin-bottom: 35px;
+		}
+		&-point{
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			margin-top: 15px;
+			opacity: 0.7;
+		}
+		.subscribe{
+			background: #1F98F0;
+			width: 131px;
+			height: 41px;
+			border-style: none;
+			color: #fff;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+		}
+		&-email{
+			width: 229px;
+			height: 36px;
+			padding-left: 10px;
+		}
+		.mt15{
+			display: block;
+			margin-top: 30px;
+		}
+	}
+}

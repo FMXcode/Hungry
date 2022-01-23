@@ -1,0 +1,118 @@
+.promo{
+	position: relative;
+	height: 958px;
+	padding: 40px;
+	background-color: #1F98F0;
+	color: #fff;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	&__menu{
+		margin-top: 10px;
+		display: flex;
+		margin-left: -200px;
+		&-point{
+			font-family: 'Work Sans', sans-serif;
+			margin-right: 50px;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			opacity: 0.7;
+		}
+	}
+	&__logo{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30.95px;
+	}
+	&__button{
+		box-sizing: border-box;
+		padding: 15px 30px;
+		width: 184px;
+		height: 52px;
+		border-radius: 10px;
+		background: #FFFFFF;
+		.download{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 22px;
+			color: #000;
+			text-decoration: none;
+		}
+	}
+	.dark{
+		position: fixed;
+		background: linear-gradient(45deg, #040d2c,#462a8b,#c505d6);
+		margin-left: 1200px;
+		width: 60px;
+		height: 30px;
+		padding: 8px;
+		align-items: center;
+		border:none;
+		margin-top: 1%;
+		outline: none;
+		color: #fff;
+		cursor: pointer;
+	}
+}
+.promo__info{
+	margin-top: 232px;
+	&-header{
+		font-family: 'Work Sans', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 51px;
+		width: 500px;
+		margin: 0;
+	}
+	&-subheader{
+		margin: 0;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		width: 488px;
+		margin-top: 30px;
+	}
+	&-icons{
+		margin-top: 50px;
+	}
+}
+
+.promo__app{
+	&-elips1{
+		position: absolute;
+		bottom: 100px;
+		right: 600px;
+	}
+	&-photo1{
+		position: absolute;
+		bottom: 170px;
+		right: 420px;
+		z-index: 2;
+	}
+	&-photo2{
+		position: absolute;
+		bottom: 230px;
+		right: 310px;
+		z-index: 1;
+	}
+	&-elips2{
+		position: absolute;
+		top: 210px;
+		right: 200px;
+	}
+	&-eyebrow{
+		position: absolute;
+		top: 215px;
+		right: 490px;
+		z-index: 3;
+	}
+	&-line{
+		position: absolute;
+		top: 235px;
+		right: 550px;
+		z-index: 4;
+	}
+}

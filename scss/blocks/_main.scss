@@ -1,0 +1,111 @@
+.main{
+	padding-top: 63px;
+	padding-bottom: 80px;
+	&__companies{
+		margin-top: 45px;
+	}
+	.companie{
+		margin-right: 110px;
+	}
+	.mr0{
+			margin-right: 0;
+	}
+	&__features{
+		margin-left: 540px;
+		&-header{
+		margin-top: 200px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		line-height: 46px;
+		margin-bottom: 84px;
+		}
+		&-point{
+			display: flex;
+			margin-bottom: 50px;
+		}
+		&-icon{
+			margin-right: 31px;
+		}
+		&-text{
+			margin-top: 5px;
+			.header{
+				font-style: normal;
+				font-weight: 500;
+				font-size: 21px;
+			}
+			.subheader{
+				margin-top: 20px;
+				opacity: 0.7;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				width: 446px
+			}
+		}
+	}
+	&__phone{
+		&-photo{
+			position: absolute;
+			top: 1400px;
+			z-index: 1;
+		}
+		&-eyebrow{
+			position: absolute;
+			top: 1400px;
+			z-index: 2;
+			left: 250px;
+		}
+		&-effect1{
+			position: absolute;
+			top: 1300px;
+			z-index: 0;
+			left: -20px;
+		}
+		&-effect2{
+			position: absolute;
+			top: 1750px;
+			z-index: 0;
+			left: 80px;
+		}
+		&-line{
+			position: absolute;
+			top: 1420px;
+			z-index: 3;
+			left: 320px;
+		}
+	}
+	&__reviews{
+		margin-top: 170px;
+		&-header{
+			font-family: Lato;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 38px;
+			text-align: center;
+		}
+	}
+	&__wapper{
+		display: flex;
+		justify-content: space-between;
+		.reviews__poin-name{
+			font-style: normal;
+			font-weight: 500;
+			font-size: 21px;
+			text-align: center;
+		}
+		.reviews__poin-photo{
+			display: block;
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+		.reviews__poin-text{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			width: 260px;
+			text-align: center;
+			opacity: 0.7;
+		}
+	}
+}

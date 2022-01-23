@@ -1,0 +1,382 @@
+* {
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	transition: 1s;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+.promo{
+	position: relative;
+	height: 958px;
+	padding: 40px;
+	background-color: #3d2859;
+	color: #fff;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	&__menu{
+		margin-top: 10px;
+		display: flex;
+		margin-left: -200px;
+		&-point{
+			font-family: 'Work Sans', sans-serif;
+			margin-right: 50px;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			opacity: 0.7;
+		}
+	}
+	&__logo{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30.95px;
+	}
+	&__button{
+		box-sizing: border-box;
+		padding: 15px 30px;
+		width: 184px;
+		height: 52px;
+		border-radius: 10px;
+		background: #4C57D8;
+		.download{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 22px;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	.dark{
+		position: fixed;
+		margin-left: 1200px;
+		background: linear-gradient(45deg, #040d2c,#462a8b,#c505d6);
+		width: 60px;
+		height: 30px;
+		padding: 8px;
+		align-items: center;
+		border:none;
+		margin-top: 1%;
+		outline: none;
+		color: #fff;
+		cursor: pointer;
+	}
+}
+.promo__info{
+	margin-top: 232px;
+	&-header{
+		font-family: 'Work Sans', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 51px;
+		width: 500px;
+		margin: 0;
+	}
+	&-subheader{
+		margin: 0;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		width: 488px;
+		margin-top: 30px;
+	}
+	&-icons{
+		margin-top: 50px;
+	}
+}
+
+.promo__app{
+	&-elips1{
+		position: absolute;
+		bottom: 100px;
+		right: 600px;
+	}
+	&-photo1{
+		position: absolute;
+		bottom: 170px;
+		right: 420px;
+		z-index: 2;
+	}
+	&-photo2{
+		position: absolute;
+		bottom: 230px;
+		right: 310px;
+		z-index: 1;
+	}
+	&-elips2{
+		position: absolute;
+		top: 210px;
+		right: 200px;
+	}
+	&-eyebrow{
+		position: absolute;
+		top: 215px;
+		right: 490px;
+		z-index: 3;
+	}
+	&-line{
+		position: absolute;
+		top: 235px;
+		right: 550px;
+		z-index: 4;
+	}
+}
+
+
+.main{
+	background-color: #000;
+	color: #fff;
+	padding-top: 63px;
+	padding-bottom: 80px;
+	&__companies{
+		margin-top: 45px;
+	}
+	.companie{
+		margin-right: 110px;
+	}
+	.mr0{
+			margin-right: 0;
+	}
+	&__features{
+		margin-left: 540px;
+		&-header{
+		margin-top: 200px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		line-height: 46px;
+		margin-bottom: 84px;
+		}
+		&-point{
+			display: flex;
+			margin-bottom: 50px;
+		}
+		&-icon{
+			margin-right: 31px;
+		}
+		&-text{
+			margin-top: 5px;
+			.header{
+				font-style: normal;
+				font-weight: 500;
+				font-size: 21px;
+			}
+			.subheader{
+				margin-top: 20px;
+				opacity: 0.7;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				width: 446px
+			}
+		}
+	}
+	&__phone{
+		&-photo{
+			position: absolute;
+			top: 1400px;
+			z-index: 1;
+		}
+		&-eyebrow{
+			position: absolute;
+			top: 1400px;
+			z-index: 2;
+			left: 250px;
+		}
+		&-effect1{
+			position: absolute;
+			top: 1300px;
+			z-index: 0;
+			left: -20px;
+		}
+		&-effect2{
+			position: absolute;
+			top: 1750px;
+			z-index: 0;
+			left: 80px;
+		}
+		&-line{
+			position: absolute;
+			top: 1420px;
+			z-index: 3;
+			left: 320px;
+		}
+	}
+	&__reviews{
+		margin-top: 170px;
+		&-header{
+			font-family: Lato;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 38px;
+			text-align: center;
+		}
+	}
+	&__wapper{
+		display: flex;
+		justify-content: space-between;
+		.reviews__poin-name{
+			font-style: normal;
+			font-weight: 500;
+			font-size: 21px;
+			text-align: center;
+		}
+		.reviews__poin-photo{
+			display: block;
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+		.reviews__poin-text{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			width: 260px;
+			text-align: center;
+			opacity: 0.7;
+		}
+	}
+}
+
+
+.update{
+	background-color: #000;
+	color: #fff;
+	padding-top: 120px;
+	padding-bottom: 128px;
+	&__header{
+		color: #fff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		text-align: center;
+	}
+	&__points{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__point{
+		margin-top: 30px;
+		&-name{
+			font-style: normal;
+			font-weight: 600;
+			font-size: 28px;
+		}
+		&-text{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			width: 327px;
+			opacity: 0.7;
+			color: №fafafa;
+		}
+		&-more{
+			display: block;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 18px;
+			color: #1F98F0;
+			text-decoration: none;
+			margin-top: 30px;
+		}
+	}
+}
+
+
+.food{
+	background-color: #3d2859;
+	height: 265px;
+	&__wapper{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__info{
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		color: #fff;
+		margin-top: 107px;
+	}
+	&__button{
+		margin-top: 107px;
+		margin-right: 100px;
+		box-sizing: border-box;
+		padding: 15px 30px;
+		width: 184px;
+		height: 52px;
+		border-radius: 10px;
+		background: #4C57D8;
+		&-download{
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+.footer{
+	background-color: #03101A;
+	color: #fff;
+	padding: 100px;
+	&__wapper{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__hungry{
+		&-header{
+			margin: 0;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30.95px;
+			margin-bottom: 35px;
+		}
+		&-text{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			opacity: 0.7;
+			width: 327px;
+		}
+	}
+	&__support{
+		&-header{
+			margin-top: 12px;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 21px;
+			margin-bottom: 35px;
+		}
+		&-point{
+			display: block;
+			color: #fff;
+			text-decoration: none;
+			margin-top: 15px;
+			opacity: 0.7;
+		}
+		.subscribe{
+			background: #4C57D8;
+			width: 131px;
+			height: 41px;
+			border-style: none;
+			color: #fff;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+		}
+		&-email{
+			width: 229px;
+			height: 36px;
+			padding-left: 10px;
+		}
+		.mt15{
+			display: block;
+			margin-top: 30px;
+		}
+	}
+}

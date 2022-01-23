@@ -1,0 +1,17 @@
+@import '../base/_variables.scss';
+@import '../base/_animations.scss';
+* {
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	transition: 1s;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+@import '_header.scss';
+@import '_main.scss';
+@import '_food.scss';
+@import '_update.scss';
+@import '_footer.scss';

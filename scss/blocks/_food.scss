@@ -1,0 +1,30 @@
+.food{
+	background-color: #1F98F0;
+	height: 265px;
+	&__wapper{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__info{
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 38px;
+		color: #fff;
+		margin-top: 107px;
+	}
+	&__button{
+		margin-top: 107px;
+		margin-right: 100px;
+		box-sizing: border-box;
+		padding: 15px 30px;
+		width: 184px;
+		height: 52px;
+		border-radius: 10px;
+		background: #FFFFFF;
+		&-download{
+			color: #1F98F0;
+			text-decoration: none;
+		}
+	}
+}
